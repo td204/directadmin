@@ -17,7 +17,7 @@ class Dnssec extends DnsObject
 {
 
     /**
-     * Creates a new DNS key.
+     * Return the DNS Keys, if any
      */
     public function getKeys()
     {
