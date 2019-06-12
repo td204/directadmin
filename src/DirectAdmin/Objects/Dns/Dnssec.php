@@ -10,8 +10,6 @@
 
 namespace Omines\DirectAdmin\Objects\Dns;
 
-use Omines\DirectAdmin\Context\UserContext;
-
 /**
  * DNSSEC
  */
@@ -27,6 +25,7 @@ class Dnssec extends DnsObject
             'value' => 'get_keys',
         ]);
     }
+
     /**
      * Creates a new DNS key.
      */
@@ -48,7 +47,7 @@ class Dnssec extends DnsObject
     }
 
     /**
-     * Returns the full domain name for the subdomain.
+     * Returns the domain name.
      *
      * @return string
      */
